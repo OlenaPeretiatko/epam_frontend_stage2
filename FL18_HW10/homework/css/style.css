@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 5%;
+}
+#textBeforeGame{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+#winner{
+    background-color: #f39dac;
+    font-weight: bold;
+    font-size: 30px;
+}
+table {
+    text-align: center;
+    border-collapse: collapse;
+    border-style: hidden;
+    margin: auto;
+}
+
+td {
+    font-size: 50px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+}
+#players{
+    font-size: 20px;
+    font-weight: bold;
+}
+.diagonal1, .diagonal2, .horizontal, .vertical {
+    position: relative;
+}
+
+.diagonal1:before, .diagonal2:before, .horizontal:before, .vertical:before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-bottom: 1px solid red;
+    width: 100%;
+}
+
+.diagonal1:before {
+    transform: skew(60deg, 45deg);
+}
+
+.diagonal2:before {
+    transform: skew(40deg, -45deg);
+}
+
+.vertical:before {
+    transform: rotate(90deg);
+}

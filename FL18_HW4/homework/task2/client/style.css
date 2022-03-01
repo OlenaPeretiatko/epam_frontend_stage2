@@ -1,0 +1,54 @@
+body {
+    margin: 5%;
+}
+
+#chat{
+    display: flex;
+    flex-direction: column;
+}
+#msg {
+    position: fixed;
+    bottom: 5%;
+    width: 90%;
+}
+
+#input {
+    width: 80%;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+#btnSend {
+    height: 30px;
+    box-sizing: border-box;
+    margin: -4px;
+    width: 20%;
+}
+
+.msgContainerSender,  .msgContainerReceiver{
+    display: flex;
+    flex-direction: column;
+}
+.msgContainerSender {
+    text-align: right;
+    margin-left: auto;
+}
+.msgContainerReceiver {
+    margin-right: auto;
+}
+.msgPerson {
+    font-style: italic;
+}
+
+.msgTxt {
+    padding: 3px 20px;
+    background-color: #85e2f4;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+
+.msgPerson, .msgTime {
+    margin: 0 20px;
+    font-size: 0.9em;
+}

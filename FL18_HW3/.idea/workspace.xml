@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e83860f2-2b69-4476-9053-81bb06f3cb14" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/FL18_HW3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW1/homework/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FL18_HW1/homework/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW1/homework/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW1/homework/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/homework/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/homework/css/general.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/homework/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/homework/img/contact-us.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/homework/img/epam-mexico.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/homework/img/epam_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/homework/img/idea-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/homework/img/idea-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/homework/img/idea-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/homework/img/idea-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/homework/img/idea-large-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/homework/img/idea-large-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/homework/img/idea-large-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/homework/img/idea-large-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/homework/img/study.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/homework/img/white-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/homework/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FL18_HW2/homework/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/task/FL18_HW2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../FL18_HW2/task/FL18_HW2.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FL18_HW2/task/FL18_HW2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../FL18_HW2/task/FL18_HW2.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24BesoRRimW2MOIjRRflNYeN7Cv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/homework/js/index.js" working-dir="$PROJECT_DIR$/homework/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e83860f2-2b69-4476-9053-81bb06f3cb14" name="Changes" comment="" />
+      <created>1643108617215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643108617215</updated>
+      <workItem from="1643108618741" duration="11084000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS Modules</title>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="textBeforeGame">
+    <p> Rules are very simple:
+        Players are marking by turns the spaces in a 3x3 grid with X or O.
+        The player who succeeds in placing three of their marks in a horizontal,
+        vertical, or diagonal row is the winner.</p>
+    <p id="players"></p>
+    <span id="winner"></span>
+    <p id="score"></p>
+    <button id="clearBtn" onclick="clickToClear()">Reset</button>
+    <button id="newGameBtn" onclick="startNewGame()">New game</button>
+</div>
+
+<div id="game">
+    <table id="mySelect">
+        <tr>
+            <td id="td1" onclick="clickedCell(this.id)"></td>
+            <td id="td2" onclick="clickedCell(this.id)"></td>
+            <td id="td3" onclick="clickedCell(this.id)"></td>
+        </tr>
+        <tr>
+            <td id="td11" onclick="clickedCell(this.id)"></td>
+            <td id="td12" onclick="clickedCell(this.id)"></td>
+            <td id="td13" onclick="clickedCell(this.id)"></td>
+        </tr>
+        <tr>
+            <td id="td21" onclick="clickedCell(this.id)"></td>
+            <td id="td22" onclick="clickedCell(this.id)"></td>
+            <td id="td23" onclick="clickedCell(this.id)"></td>
+        </tr>
+    </table>
+</div>
+<p id="demo"></p>
+<script src="/homework/js/index.js"></script>
+</body>
+</html>

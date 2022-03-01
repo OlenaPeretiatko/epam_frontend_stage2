@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Write your code here -->
+<div id="calculator">
+    <div id="screenBlock">
+        <input type="text" id="screen" placeholder="0">
+    </div>
+    <div id="numbersBlock">
+        <table>
+            <tr>
+                <td class="empty"></td>
+                <td class="empty"></td>
+                <td id="C" onclick="clickClean()">C</td>
+                <td id="divide" onclick="clickOperator(this.id)">/</td>
+            </tr>
+            <tr>
+                <td id="9" onclick="clickNumber(this.id)">9</td>
+                <td id="8" onclick="clickNumber(this.id)">8</td>
+                <td id="7" onclick="clickNumber(this.id)">7</td>
+                <td id="multiply" onclick="clickOperator(this.id)">*</td>
+            </tr>
+            <tr>
+                <td id="6" onclick="clickNumber(this.id)">6</td>
+                <td id="5" onclick="clickNumber(this.id)">5</td>
+                <td id="4" onclick="clickNumber(this.id)">4</td>
+                <td id="plus" onclick="clickOperator(this.id)">+</td>
+            </tr>
+            <tr>
+                <td id="3" onclick="clickNumber(this.id)">3</td>
+                <td id="2" onclick="clickNumber(this.id)">2</td>
+                <td id="1" onclick="clickNumber(this.id)">1</td>
+                <td id="minus" onclick="clickOperator(this.id)">-</td>
+            </tr>
+            <tr>
+                <td class="empty"></td>
+                <td id="0" onclick="clickNumber(this.id)">0</td>
+                <td class="empty"></td>
+                <td onclick="getResult()">=</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div id="calculations"></div>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

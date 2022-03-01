@@ -1,0 +1,16 @@
+{
+  "name": "fl18_hw10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "start": "npm run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

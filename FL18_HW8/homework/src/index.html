@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tools</title>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+    <link rel="stylesheet" href="scss/styles.scss">
+</head>
+<body>
+<div>
+    <p>Game rules:
+        - Scissors beats a paper,
+        - Paper beats rock,
+        - Rock beats scissors.
+        - And we play up to three wins!</p>
+    <h1>Let's play!</h1>
+    <button id="rock" onclick="clickBtn(this.id)">Rock</button>
+    <button id="paper" onclick="clickBtn(this.id)">Paper</button>
+    <button id="scissors" onclick="clickBtn(this.id)">Scissors</button>
+    <br>
+    <button id="reset" onclick="reset()">Reset</button>
+</div>
+<div id="game"></div>
+<div id="result"></div>
+<script src="js/app.js"></script>
+</body>
+</html>
